@@ -3,3 +3,5 @@
 if [ "$NPM_CONFIG_PREFIX" = "" ]; then
   export NPM_CONFIG_PREFIX=$ASDF_INSTALL_PATH/
 fi
+
+export PATH="$ASDF_INSTALL_PATH/bin:$PATH"
